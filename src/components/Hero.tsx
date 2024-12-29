@@ -51,19 +51,6 @@ export const Hero = () => {
         </motion.p>
 
         <motion.div
-          initial={{ opacity: 0 }}
-          animate={{ opacity: 1 }}
-          transition={{ delay: 0.4, duration: 0.8 }}
-          className="text-lg text-gray-300 mb-12 max-w-3xl mx-auto"
-        >
-          <p>
-            Specializing in transforming raw footage into emotionally resonant stories that captivate audiences. 
-            Proven track record of success with major networks including Discovery, History Channel, and National Geographic, 
-            delivering content that consistently exceeds expectations and drives viewer engagement.
-          </p>
-        </motion.div>
-
-        <motion.div
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ delay: 0.6, duration: 0.8 }}
