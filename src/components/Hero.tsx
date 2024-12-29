@@ -1,5 +1,4 @@
 import { motion } from "framer-motion";
-import { ChevronDown } from "lucide-react";
 import { useState } from "react";
 import { CV } from "./CV";
 
@@ -82,15 +81,6 @@ export const Hero = () => {
           </a>
         </motion.div>
       </div>
-
-      <motion.div 
-        initial={{ opacity: 0 }}
-        animate={{ opacity: 1 }}
-        transition={{ delay: 0.9, duration: 0.8 }}
-        className="absolute bottom-8 left-1/2 transform -translate-x-1/2 animate-bounce"
-      >
-        <ChevronDown size={32} className="text-accent" />
-      </motion.div>
 
       {showCV && (
         <motion.div
