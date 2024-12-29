@@ -13,6 +13,14 @@ export const Hero = () => {
     }
   };
 
+  const scrollToContact = (e: React.MouseEvent) => {
+    e.preventDefault();
+    const contactSection = document.getElementById('contact');
+    if (contactSection) {
+      contactSection.scrollIntoView({ behavior: 'smooth' });
+    }
+  };
+
   return (
     <section className="min-h-screen relative flex items-center justify-center bg-dark text-white p-4">
       <div 
@@ -74,6 +82,12 @@ export const Hero = () => {
           >
             Learn More
           </a>
+          <button 
+            onClick={scrollToContact}
+            className="px-8 py-3 border border-white/20 hover:border-accent hover:text-accent rounded-full transition-colors duration-300"
+          >
+            Contact
+          </button>
         </motion.div>
       </div>
 
