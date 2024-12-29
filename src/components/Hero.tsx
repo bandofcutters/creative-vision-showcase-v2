@@ -26,11 +26,11 @@ export const Hero = () => {
           transition={{ duration: 0.8 }}
           className="mb-8"
         >
-          <h2 className="text-accent text-xl md:text-2xl font-medium mb-4">Welcome to my portfolio</h2>
+          <h2 className="text-accent text-xl md:text-2xl font-medium mb-4">Welcome to Ryan Monteith's portfolio</h2>
           <h1 className="text-5xl md:text-7xl font-bold mb-2">
             Ryan Monteith
           </h1>
-          <h2 className="text-3xl md:text-4xl font-bold text-accent mb-6">
+          <h2 className="text-5xl md:text-7xl font-bold text-accent mb-6">
             Picture Editor
           </h2>
         </motion.div>
