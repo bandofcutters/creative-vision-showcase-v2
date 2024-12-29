@@ -5,6 +5,14 @@ import { CV } from "./CV";
 export const Hero = () => {
   const [showCV, setShowCV] = useState(false);
 
+  const scrollToPortfolio = (e: React.MouseEvent) => {
+    e.preventDefault();
+    const portfolioSection = document.getElementById('portfolio');
+    if (portfolioSection) {
+      portfolioSection.scrollIntoView({ behavior: 'smooth' });
+    }
+  };
+
   return (
     <section className="min-h-screen relative flex items-center justify-center bg-dark text-white p-4">
       <div 
@@ -61,12 +69,12 @@ export const Hero = () => {
           transition={{ delay: 0.6, duration: 0.8 }}
           className="flex flex-col md:flex-row gap-4 justify-center items-center"
         >
-          <a 
-            href="#portfolio" 
+          <button 
+            onClick={scrollToPortfolio}
             className="px-8 py-3 bg-accent hover:bg-accent/90 text-dark font-semibold rounded-full transition-colors duration-300"
           >
             View My Work
-          </a>
+          </button>
           <button 
             onClick={() => setShowCV(true)}
             className="px-8 py-3 border border-accent text-accent hover:bg-accent hover:text-dark rounded-full transition-colors duration-300"

@@ -20,7 +20,7 @@ const portfolioItems = [
 
 export const Portfolio = () => {
   return (
-    <section className="py-20 px-4 bg-dark-lighter">
+    <section id="portfolio" className="py-20 px-4 bg-dark-lighter">
       <div className="container mx-auto">
         <motion.h2 
           initial={{ opacity: 0, y: 20 }}
