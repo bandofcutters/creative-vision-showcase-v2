@@ -1,5 +1,5 @@
 import { motion } from "framer-motion";
-import { Calendar, Award, Briefcase, GraduationCap } from "lucide-react";
+import { Calendar, Award, Briefcase, GraduationCap, User, FileText, Wrench } from "lucide-react";
 
 export const CV = () => {
   return (
@@ -24,10 +24,19 @@ export const CV = () => {
               <h3 className="text-2xl font-semibold text-white mb-4 flex items-center gap-2">
                 <Award className="text-accent" /> Organizations
               </h3>
-              <ul className="text-gray-300">
+              <ul className="text-gray-300 space-y-2">
                 <li>Canadian Cinema Editors</li>
                 <li>Metis Nation of Ontario</li>
               </ul>
+            </section>
+
+            <section>
+              <h3 className="text-2xl font-semibold text-white mb-4 flex items-center gap-2">
+                <User className="text-accent" /> Summary
+              </h3>
+              <p className="text-gray-300">
+                Seasoned freelance picture editor with 20+ years in unscripted TV and documentaries. With a love for telling stories through the craft of editing since childhood, Ryan's work reflects a deep commitment to authentic storytelling and collaborative success in fast paced environments.
+              </p>
             </section>
 
             <section>
@@ -44,11 +53,39 @@ export const CV = () => {
                     details: "2 x Episodes: Edited on Premiere, Director: Brent Hodge"
                   },
                   {
+                    title: "The Passionate Eye (CBC)",
+                    company: "Peacock Alley",
+                    role: "Picture Editor, Story Editor, Writer, Documentary",
+                    date: "March 2024 - July 2024",
+                    details: "1 x Episode: Harder Better Faster Stronger, Edited on Premiere. Director: Brent Hodge"
+                  },
+                  {
                     title: "Mr. Dressup: Doc (Prime Video)",
                     company: "marblemedia",
                     role: "Picture Editor, Feature Documentary",
                     date: "Nov 2022 - Jan 2023",
                     details: "Mr. Dressup: The Magic of Make Believe premiered at TIFF 2023 winning the People's Choice Documentary Award"
+                  },
+                  {
+                    title: "Luxe Listings Toronto (Prime Video)",
+                    company: "MEM",
+                    role: "Picture Editor, Documentary - Reality TV",
+                    date: "Oct 2023 - Dec 2024",
+                    details: "2 x Episodes"
+                  },
+                  {
+                    title: "All Round Champion (BYUtv / TVO)",
+                    company: "marblemedia",
+                    role: "Picture Editor, Competition Reality",
+                    date: "Nov 2020 - March 2024",
+                    details: "5 x Episodes"
+                  },
+                  {
+                    title: "Best in Miniature S1 & S2 (CBC)",
+                    company: "marblemedia",
+                    role: "Supervising Editor / Story Editor, Competition Reality",
+                    date: "July 2021 - Jan 2023",
+                    details: "Story Editor 2 x Episodes S2 / Supervising Editor 8 x Episodes S2, Lead Editor 2 x Episodes S1"
                   },
                   {
                     title: "The Amazing Race Canada (CTV)",
@@ -64,7 +101,7 @@ export const CV = () => {
                     <p className="text-gray-400 flex items-center gap-2">
                       <Calendar className="w-4 h-4" /> {job.date}
                     </p>
-                    <p className="text-gray-300 mt-2">{job.details}</p>
+                    <p className="text-gray-300 mt-2 whitespace-pre-line">{job.details}</p>
                   </div>
                 ))}
                 <p className="text-gray-400 italic">
@@ -89,7 +126,22 @@ export const CV = () => {
             </section>
 
             <section>
-              <h3 className="text-2xl font-semibold text-white mb-4">Awards</h3>
+              <h3 className="text-2xl font-semibold text-white mb-4 flex items-center gap-2">
+                <Wrench className="text-accent" /> Skills
+              </h3>
+              <ul className="text-gray-300 space-y-2">
+                <li>Avid Media Composer</li>
+                <li>Adobe Premiere Pro</li>
+                <li>Factual / Unscripted</li>
+                <li>Storytelling / Writing</li>
+                <li>Documentary / Docu-Series / Reality / Reality Competition</li>
+              </ul>
+            </section>
+
+            <section>
+              <h3 className="text-2xl font-semibold text-white mb-4 flex items-center gap-2">
+                <Award className="text-accent" /> Awards
+              </h3>
               <ul className="text-gray-300 space-y-2">
                 <li>3 X Winner, Canadian Cinema Editor Award for The Amazing Race Canada, Top Chef Canada & Best in Miniature S2</li>
                 <li>12 X Canadian Screen Award Nominee for Best Picture Editing in a Reality / Competition Program or Series</li>
