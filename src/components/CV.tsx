@@ -35,7 +35,7 @@ export const CV = () => {
                 <User className="text-accent" /> Summary
               </h3>
               <p className="text-gray-300">
-                Seasoned freelance picture editor with 20+ years in unscripted TV and documentaries. With a love for telling stories through the craft of editing since childhood, Ryan's work reflects a deep commitment to authentic storytelling and collaborative success in fast paced environments.
+                Award-winning picture editor with over two decades of expertise in crafting compelling narratives for unscripted television and documentaries. Recognized by the Canadian Cinema Editors with multiple awards, including honors for work on flagship productions like The Amazing Race Canada and Top Chef Canada. Demonstrated mastery in shaping engaging stories across diverse formats, from high-stakes competition shows to intimate documentaries. Known for bringing a unique creative vision while maintaining authenticity in storytelling, with a proven track record of success in fast-paced, deadline-driven environments. Skilled at managing complex narratives and collaborating effectively with directors, producers, and creative teams to deliver outstanding content that resonates with audiences.
               </p>
             </section>
 
@@ -93,6 +93,104 @@ export const CV = () => {
                     role: "Senior Editor /Lead Editor, Competition Reality",
                     date: "May 2014 - Aug 2023",
                     details: "Lead Editor: 12 x Episodes, 7 x Seasons\nSenior/Supervising Editor: 11 x Episodes, Season 9"
+                  },
+                  {
+                    title: "Drink Masters (Netflix)",
+                    company: "marblemedia",
+                    role: "Picture Editor, Competition Reality",
+                    date: "Jan 2022 - Feb 2022",
+                    details: "1 x Episode 3"
+                  },
+                  {
+                    title: "Big Brother Canada (Global)",
+                    company: "Insight Productions",
+                    role: "Supervising Editor, Competition Reality",
+                    date: "Feb 2013 - May 2023",
+                    details: "Supervising Editor: 100+ x Episodes, 10 x Seasons\nPicture Editor: 20 x Episodes, Season 11"
+                  },
+                  {
+                    title: "Dragons Den S15 & S16 (CBC)",
+                    company: "CBC",
+                    role: "Picture Editor, Reality",
+                    date: "Aug 2020 - Oct 2021",
+                    details: ""
+                  },
+                  {
+                    title: "The Bachelor Canada S3 (W)",
+                    company: "Good Human Productions",
+                    role: "Lead Editor, Reality",
+                    date: "May 2017 - Oct 2017",
+                    details: "3 x Episodes"
+                  },
+                  {
+                    title: "Top Chef Canada S6 (Food Network)",
+                    company: "Insight Productions",
+                    role: "Picture Editor, Competition Reality",
+                    date: "Nov 2017 - Feb 2018",
+                    details: "2 x Episodes"
+                  },
+                  {
+                    title: "MasterChef Canada S1 & S2 (CTV)",
+                    company: "Proper Television",
+                    role: "Lead Editor, Competition Reality",
+                    date: "Aug 2013 - Feb 2016",
+                    details: "3 x Episodes"
+                  },
+                  {
+                    title: "Farmhouse Facelift S3 (HGTV)",
+                    company: "Be Collective Media",
+                    role: "Lead Editor, Reno-Reality",
+                    date: "Mar 2023 - Apr 2023",
+                    details: "2 x Episodes"
+                  },
+                  {
+                    title: "The Deed S1 & The Deed Chicago S1 (CNBC)",
+                    company: "Cineflix",
+                    role: "Picture Editor, Reality",
+                    date: "Aug 2016 - Jan 2017",
+                    details: "3 x Episodes"
+                  },
+                  {
+                    title: "American Beauty Star S2 (Lifetime, A&E)",
+                    company: "Insight",
+                    role: "Post Producer, Competition Reality",
+                    date: "Aug 2018 - Feb 2019",
+                    details: "Edited & Managed Post Production team through 10 x Episodes"
+                  },
+                  {
+                    title: "Race Against the Tide S1 (CBC)",
+                    company: "marblemedia",
+                    role: "Picture Editor, Competition Reality",
+                    date: "Jan 2021 - Mar 2021",
+                    details: "2 x Episodes"
+                  },
+                  {
+                    title: "Hockey Wives S1 (W Network)",
+                    company: "Bristow Global Media",
+                    role: "Picture Editor, Docu-Soap",
+                    date: "Aug 2014 - Oct 2014",
+                    details: ""
+                  },
+                  {
+                    title: "Brave New Girls (E! Channel)",
+                    company: "Peacock Alley Ent.",
+                    role: "Picture Editor, Docu-Soap",
+                    date: "May 2013 - Oct 2013",
+                    details: ""
+                  },
+                  {
+                    title: "Hello Goodbye (CBC)",
+                    company: "FORTÉ Entertainment",
+                    role: "Picture Editor, Reality",
+                    date: "Oct 2015 - Dec 2015",
+                    details: "2 x Episodes"
+                  },
+                  {
+                    title: "At the Table with…",
+                    company: "Fir Valley Productions",
+                    role: "Picture Editor, Documentary Series",
+                    date: "2007 - 2009",
+                    details: "13 x Episodes"
                   }
                 ].map((job, index) => (
                   <div key={index} className="border-l-2 border-accent pl-4">
