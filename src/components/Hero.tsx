@@ -10,7 +10,7 @@ export const Hero = () => {
           backgroundImage: `url(https://images.unsplash.com/photo-1488590528505-98d2b5aba04b?auto=format&fit=crop&q=80)`,
           backgroundSize: 'cover',
           backgroundPosition: 'center',
-          backgroundBlend: 'overlay'
+          backgroundBlendMode: 'overlay'
         }}
       />
       
