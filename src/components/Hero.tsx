@@ -29,7 +29,7 @@ export const Hero = () => {
           <h1 className="text-5xl md:text-7xl font-bold mb-4">
             Ryan Monteith
           </h1>
-          <h2 className="text-5xl md:text-7xl font-bold text-accent mb-6">
+          <h2 className="text-5xl md:text-7xl font-bold text-accent mb-3">
             Picture Editor
           </h2>
         </motion.div>
