@@ -1,5 +1,5 @@
 import { motion } from "framer-motion";
-import { Camera, Edit, Award } from "lucide-react";
+import { Film, Edit, Award } from "lucide-react";
 
 export const About = () => {
   return (
@@ -17,19 +17,19 @@ export const About = () => {
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8 max-w-4xl mx-auto">
           {[
             {
-              icon: Camera,
-              title: "Capture",
-              description: "Expert in identifying the perfect moment and composition"
+              icon: Film,
+              title: "Story Crafting",
+              description: "Weaving compelling narratives from raw footage for documentaries and unscripted TV"
             },
             {
               icon: Edit,
-              title: "Edit",
-              description: "Transforming raw images into stunning visual stories"
+              title: "Post-Production",
+              description: "Expert in pacing, timing, and maintaining narrative continuity"
             },
             {
               icon: Award,
-              title: "Deliver",
-              description: "Providing exceptional quality and attention to detail"
+              title: "Quality",
+              description: "Delivering broadcast-ready content that engages and entertains"
             }
           ].map((item, index) => (
             <motion.div

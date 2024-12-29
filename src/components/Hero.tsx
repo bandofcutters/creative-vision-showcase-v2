@@ -7,7 +7,7 @@ export const Hero = () => {
       <div 
         className="absolute inset-0 bg-gradient-to-br from-dark to-dark-lighter opacity-90"
         style={{
-          backgroundImage: `url(https://images.unsplash.com/photo-1488590528505-98d2b5aba04b?auto=format&fit=crop&q=80)`,
+          backgroundImage: `url(https://images.unsplash.com/photo-1492619375914-88005aa9e8fb?auto=format&fit=crop&q=80)`,
           backgroundSize: 'cover',
           backgroundPosition: 'center',
           backgroundBlendMode: 'overlay'
@@ -21,7 +21,7 @@ export const Hero = () => {
           transition={{ duration: 0.8 }}
           className="text-5xl md:text-7xl font-bold mb-6"
         >
-          Picture Perfect <span className="text-accent">Editing</span>
+          Picture <span className="text-accent">Editor</span>
         </motion.h1>
         <motion.p 
           initial={{ opacity: 0 }}
@@ -29,7 +29,7 @@ export const Hero = () => {
           transition={{ delay: 0.3, duration: 0.8 }}
           className="text-xl md:text-2xl text-gray-300 mb-8"
         >
-          Transforming ordinary photos into extraordinary memories
+          Crafting compelling narratives for documentaries and unscripted television
         </motion.p>
       </div>
 

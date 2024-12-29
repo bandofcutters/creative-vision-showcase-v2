@@ -3,18 +3,18 @@ import { motion } from "framer-motion";
 const portfolioItems = [
   {
     id: 1,
-    title: "Nature Enhancement",
-    image: "https://images.unsplash.com/photo-1486312338219-ce68d2c6f44d?auto=format&fit=crop&q=80",
+    title: "Documentary Editing",
+    image: "https://images.unsplash.com/photo-1492619375914-88005aa9e8fb?auto=format&fit=crop&q=80",
   },
   {
     id: 2,
-    title: "Portrait Retouching",
-    image: "https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?auto=format&fit=crop&q=80",
+    title: "Reality TV Series",
+    image: "https://images.unsplash.com/photo-1578022761797-b8636ac1773c?auto=format&fit=crop&q=80",
   },
   {
     id: 3,
-    title: "Commercial Editing",
-    image: "https://images.unsplash.com/photo-1487058792275-0ad4aaf24ca7?auto=format&fit=crop&q=80",
+    title: "Unscripted Content",
+    image: "https://images.unsplash.com/photo-1524712245354-2c4e5e7121c0?auto=format&fit=crop&q=80",
   },
 ];
 
