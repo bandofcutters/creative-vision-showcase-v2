@@ -24,10 +24,9 @@ export const Hero = () => {
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.8 }}
-          className="mb-8"
+          className="mb-12"
         >
-          <h2 className="text-accent text-xl md:text-2xl font-medium mb-4">Welcome to Ryan Monteith's portfolio</h2>
-          <h1 className="text-5xl md:text-7xl font-bold mb-2">
+          <h1 className="text-5xl md:text-7xl font-bold mb-8">
             Ryan Monteith
           </h1>
           <h2 className="text-5xl md:text-7xl font-bold text-accent mb-6">
