@@ -26,7 +26,7 @@ export const Hero = () => {
           transition={{ duration: 0.8 }}
           className="mb-12"
         >
-          <h1 className="text-5xl md:text-7xl font-bold mb-8">
+          <h1 className="text-5xl md:text-7xl font-bold mb-4">
             Ryan Monteith
           </h1>
           <h2 className="text-5xl md:text-7xl font-bold text-accent mb-6">
