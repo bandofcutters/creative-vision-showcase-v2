@@ -15,16 +15,16 @@ export const Contact = () => {
           Get in <span className="text-accent">Touch</span>
         </motion.h2>
 
-        <div className="grid grid-cols-1 md:grid-cols-3 lg:grid-cols-3 gap-8 max-w-4xl mx-auto mb-8">
+        <div className="grid grid-cols-1 md:grid-cols-3 lg:grid-cols-3 gap-8 max-w-4xl mx-auto mb-12">
           <motion.div
             initial={{ opacity: 0, y: 20 }}
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true }}
-            className="flex items-center space-x-4"
+            className="flex flex-col items-center text-center"
           >
-            <Mail className="text-accent" />
+            <Mail className="text-accent mb-3 h-6 w-6" />
             <div>
-              <h3 className="text-white font-semibold">Email</h3>
+              <h3 className="text-white font-semibold mb-1">Email</h3>
               <a href="mailto:ryan@bandofcutters.com" className="text-gray-300 hover:text-accent">
                 ryan@bandofcutters.com
               </a>
@@ -35,11 +35,11 @@ export const Contact = () => {
             initial={{ opacity: 0, y: 20 }}
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true }}
-            className="flex items-center space-x-4"
+            className="flex flex-col items-center text-center"
           >
-            <Phone className="text-accent" />
+            <Phone className="text-accent mb-3 h-6 w-6" />
             <div>
-              <h3 className="text-white font-semibold">Phone</h3>
+              <h3 className="text-white font-semibold mb-1">Phone</h3>
               <a href="tel:647.273.3154" className="text-gray-300 hover:text-accent">
                 647.273.3154
               </a>
@@ -50,11 +50,11 @@ export const Contact = () => {
             initial={{ opacity: 0, y: 20 }}
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true }}
-            className="flex items-center space-x-4"
+            className="flex flex-col items-center text-center"
           >
-            <MapPin className="text-accent" />
+            <MapPin className="text-accent mb-3 h-6 w-6" />
             <div>
-              <h3 className="text-white font-semibold">Location</h3>
+              <h3 className="text-white font-semibold mb-1">Location</h3>
               <p className="text-gray-300">Toronto, Ontario / Remote</p>
             </div>
           </motion.div>
