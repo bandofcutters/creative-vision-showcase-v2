@@ -12,7 +12,7 @@ const shows = [
     title: "Mr. Dressup: The Magic of Make Believe",
     description: "Feature Documentary that premiered at TIFF 2023, winning the People's Choice Documentary Award. A heartwarming exploration of the beloved Canadian children's television host.",
     image: "/lovable-uploads/08d58990-f33e-403c-a06a-58aea28af892.png",
-    trailerUrl: "https://www.youtube.com/embed/YOUR_VIDEO_ID" // Replace with actual video ID
+    trailerUrl: "https://www.youtube.com/embed/PnXXEh-S_lQ" // Replace with actual video ID
   },
   {
     id: 2,
