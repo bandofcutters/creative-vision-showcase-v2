@@ -1,5 +1,5 @@
 import { motion } from "framer-motion";
-import { Film, Edit, Award } from "lucide-react";
+import { Film, Edit, Award, Music } from "lucide-react";
 
 export const About = () => {
   return (
@@ -25,7 +25,7 @@ export const About = () => {
           </p>
         </motion.div>
         
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-8 max-w-4xl mx-auto">
+        <div className="grid grid-cols-1 md:grid-cols-4 gap-8 max-w-6xl mx-auto">
           {[
             {
               icon: Film,
@@ -34,13 +34,18 @@ export const About = () => {
             },
             {
               icon: Edit,
-              title: "Post-Production",
-              description: "Expert in pacing, timing, and maintaining narrative continuity"
+              title: "Visual Storytelling",
+              description: "Expert in shot selection, pacing, and visual flow. Crafting seamless transitions and maintaining narrative continuity while making impactful creative choices that enhance the story"
             },
             {
               icon: Award,
               title: "Quality",
               description: "Delivering broadcast-ready content that engages and entertains"
+            },
+            {
+              icon: Music,
+              title: "Music Design",
+              description: "Skilled at selecting and editing music to enhance emotional impact, create atmosphere, and elevate storytelling through thoughtful audio choices"
             }
           ].map((item, index) => (
             <motion.div
