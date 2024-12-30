@@ -17,7 +17,7 @@ const shows = [
     id: 2,
     title: "The Passionate Eye - Harder Better Faster Stronger",
     description: "A compelling documentary episode exploring contemporary themes and societal challenges.",
-    image: "https://images.unsplash.com/photo-1604871000636-074fa5117945",
+    image: "/lovable-uploads/5095d9b5-387f-4a6b-b88e-89e1342b505b.png",
     trailerUrl: "#"
   },
   {
