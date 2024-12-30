@@ -83,7 +83,7 @@ const Documentaries = () => {
                   className="w-fit border-accent text-accent hover:bg-accent hover:text-dark"
                   onClick={() => setSelectedVideo({ url: show.trailerUrl, title: show.title })}
                 >
-                  <Play className="mr-2" /> Watch Trailer
+                  <Play className="mr-2" /> Watch
                 </Button>
               </div>
               <div className="flex items-center justify-center p-4">
