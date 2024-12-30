@@ -72,7 +72,7 @@ export const Contact = () => {
             <Twitter className="w-6 h-6 text-accent" />
           </a>
           <a 
-            href="https://facebook.com/ryanmonteith1976" 
+            href="https://www.facebook.com/share/1ApaPuD6XS/?mibextid=wwXIfr" 
             target="_blank" 
             rel="noopener noreferrer"
             className="p-3 rounded-full bg-accent/10 hover:bg-accent/20 transition-colors"

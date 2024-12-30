@@ -3,6 +3,7 @@ import { Button } from "@/components/ui/button";
 import { ArrowLeft, Play } from "lucide-react";
 import { useNavigate } from "react-router-dom";
 import { useEffect } from "react";
+import { PortfolioNav } from "@/components/PortfolioNav";
 
 const shows = [
   {
@@ -21,10 +22,6 @@ const TrueCrime = () => {
     window.scrollTo(0, 0);
   }, []);
 
-  const scrollToPortfolio = () => {
-    navigate('/#portfolio');
-  };
-
   return (
     <div className="min-h-screen bg-dark text-white p-8">
       <motion.div
@@ -34,13 +31,15 @@ const TrueCrime = () => {
       >
         <Button
           variant="ghost"
-          className="text-white mb-8 hover:text-accent hover:text-white"
-          onClick={scrollToPortfolio}
+          className="text-white mb-8 hover:bg-accent/20 hover:text-white"
+          onClick={() => navigate("/")}
         >
-          <ArrowLeft className="mr-2" /> Back to Featured Work
+          <ArrowLeft className="mr-2" /> Back to Home
         </Button>
 
         <h1 className="text-4xl font-bold mb-12">True Crime</h1>
+        
+        <PortfolioNav />
         
         <div className="space-y-12">
           {shows.map((show) => (
