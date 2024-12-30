@@ -2,6 +2,7 @@ import { motion } from "framer-motion";
 import { Button } from "@/components/ui/button";
 import { ArrowLeft, Play } from "lucide-react";
 import { useNavigate } from "react-router-dom";
+import { useEffect } from "react";
 
 const shows = [
   {
@@ -15,20 +16,31 @@ const shows = [
     id: 2,
     title: "The Passionate Eye - Harder Better Faster Stronger",
     description: "A compelling documentary episode exploring contemporary themes and societal challenges.",
-    image: "https://images.unsplash.com/photo-1649972904349-6e44c42644a7",
+    image: "https://images.unsplash.com/photo-1604871000636-074fa5117945",
     trailerUrl: "#"
   },
   {
     id: 3,
+    title: "50K First Dates",
+    description: "Picture Editor for 2 episodes of this Prime Video docu-series, directed by Brent Hodge.",
+    image: "https://images.unsplash.com/photo-1604871000636-074fa5117945",
+    trailerUrl: "#"
+  },
+  {
+    id: 4,
     title: "At the Table with...",
     description: "A 13-episode documentary series exploring culinary stories and cultural connections.",
-    image: "https://images.unsplash.com/photo-1649972904349-6e44c42644a7",
+    image: "https://images.unsplash.com/photo-1604871000636-074fa5117945",
     trailerUrl: "#"
   }
 ];
 
 const Documentaries = () => {
   const navigate = useNavigate();
+
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
 
   return (
     <div className="min-h-screen bg-dark text-white p-8">

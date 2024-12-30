@@ -38,14 +38,14 @@ export const About = () => {
               description: "Expert in shot selection, pacing, and visual flow. Crafting seamless transitions and maintaining narrative continuity while making impactful creative choices that enhance the story"
             },
             {
-              icon: Award,
-              title: "Quality",
-              description: "Delivering broadcast-ready content that engages and entertains"
-            },
-            {
               icon: Music,
               title: "Music Design",
               description: "Skilled at selecting and editing music to enhance emotional impact, create atmosphere, and elevate storytelling through thoughtful audio choices"
+            },
+            {
+              icon: Award,
+              title: "Quality",
+              description: "Delivering broadcast-ready content that engages and entertains"
             }
           ].map((item, index) => (
             <motion.div
