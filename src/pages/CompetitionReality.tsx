@@ -24,7 +24,7 @@ const shows = [
     id: 3,
     title: "Drink Masters",
     description: "Picture Editor for Episode 3. An innovative competition series featuring skilled mixologists creating extraordinary cocktails.",
-    image: "https://images.unsplash.com/photo-1649972904349-6e44c42644a7",
+    image: "/lovable-uploads/e3351528-e295-4bc4-a84d-ad16826db630.png",
     trailerUrl: "#"
   },
   {
@@ -106,11 +106,13 @@ const CompetitionReality = () => {
                 </Button>
               </div>
               <div className="flex items-center justify-center p-4">
-                <img
-                  src={show.image}
-                  alt={show.title}
-                  className="w-[300px] h-[300px] object-cover rounded-lg"
-                />
+                <div className="w-[300px] h-[300px] bg-black flex items-center justify-center">
+                  <img
+                    src={show.image}
+                    alt={show.title}
+                    className="h-[300px] w-auto object-contain"
+                  />
+                </div>
               </div>
             </motion.div>
           ))}
