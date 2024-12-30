@@ -22,7 +22,7 @@ const shows = [
   {
     id: 3,
     title: "50K First Dates",
-    description: "Picture Editor for 2 episodes of this Prime Video docu-series, directed by Brent Hodge.",
+    description: "A touching 2-part documentary series following a couple's journey through real-life memory loss and their unexpected rise to TikTok fame, exploring themes of love, resilience, and the power of social media connection.",
     image: "https://images.unsplash.com/photo-1604871000636-074fa5117945",
     trailerUrl: "#"
   },
@@ -42,6 +42,10 @@ const Documentaries = () => {
     window.scrollTo(0, 0);
   }, []);
 
+  const scrollToPortfolio = () => {
+    navigate('/#portfolio');
+  };
+
   return (
     <div className="min-h-screen bg-dark text-white p-8">
       <motion.div
@@ -52,9 +56,9 @@ const Documentaries = () => {
         <Button
           variant="ghost"
           className="text-white mb-8 hover:text-accent"
-          onClick={() => navigate("/")}
+          onClick={scrollToPortfolio}
         >
-          <ArrowLeft className="mr-2" /> Back to Home
+          <ArrowLeft className="mr-2" /> Back to Featured Work
         </Button>
 
         <h1 className="text-4xl font-bold mb-12">Documentaries</h1>

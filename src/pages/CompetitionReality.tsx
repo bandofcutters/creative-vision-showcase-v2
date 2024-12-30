@@ -2,6 +2,7 @@ import { motion } from "framer-motion";
 import { Button } from "@/components/ui/button";
 import { ArrowLeft, Play } from "lucide-react";
 import { useNavigate } from "react-router-dom";
+import { useEffect } from "react";
 
 const shows = [
   {
@@ -15,7 +16,7 @@ const shows = [
     id: 2,
     title: "Best in Miniature",
     description: "Supervising Editor / Story Editor for Season 2 (8 episodes) and Lead Editor for Season 1 (2 episodes). A unique competition showcasing incredible miniature creations.",
-    image: "https://images.unsplash.com/photo-1649972904349-6e44c42644a7",
+    image: "https://images.unsplash.com/photo-1604871000636-074fa5117945",
     trailerUrl: "#"
   },
   {
@@ -58,6 +59,14 @@ const shows = [
 const CompetitionReality = () => {
   const navigate = useNavigate();
 
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
+
+  const scrollToPortfolio = () => {
+    navigate('/#portfolio');
+  };
+
   return (
     <div className="min-h-screen bg-dark text-white p-8">
       <motion.div
@@ -68,9 +77,9 @@ const CompetitionReality = () => {
         <Button
           variant="ghost"
           className="text-white mb-8 hover:text-accent"
-          onClick={() => navigate("/")}
+          onClick={scrollToPortfolio}
         >
-          <ArrowLeft className="mr-2" /> Back to Home
+          <ArrowLeft className="mr-2" /> Back to Featured Work
         </Button>
 
         <h1 className="text-4xl font-bold mb-12">Competition Reality TV</h1>
