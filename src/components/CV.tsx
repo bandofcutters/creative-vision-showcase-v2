@@ -13,8 +13,8 @@ export const CV = () => {
   const handleDownload = () => {
     // Create a link to download the CV
     const link = document.createElement('a');
-    link.href = '/Ryan-Monteith-CV.pdf'; // This assumes you have a PDF version of the CV in the public folder
-    link.download = 'Ryan-Monteith-CV.pdf';
+    link.href = '/Ryan_Monteith_Editor_CV_2024_12.pdf'; // This assumes you have a PDF version of the CV in the public folder
+    link.download = 'Ryan_Monteith_Editor_CV_2024_12.pdf';
     document.body.appendChild(link);
     link.click();
     document.body.removeChild(link);
