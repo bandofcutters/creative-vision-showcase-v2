@@ -14,6 +14,13 @@ const shows = [
     trailerUrl: "#"
   },
   {
+    id: 8,
+    title: "Big Brother Canada",
+    description: "Supervising Editor for over 100 episodes across 10 seasons, and Picture Editor for 20 episodes in Season 11. A reality competition show where contestants live together in a house, isolated from the outside world, competing for a grand prize.",
+    image: "/lovable-uploads/64508c23-f33c-454b-b623-082e168c4a49.png",
+    trailerUrl: "#"
+  },
+  {
     id: 2,
     title: "Best in Miniature",
     description: "Supervising Editor / Story Editor for Season 2 (8 episodes) and Lead Editor for Season 1 (2 episodes). A unique competition showcasing incredible miniature creations.",
