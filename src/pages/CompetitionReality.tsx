@@ -7,22 +7,50 @@ const shows = [
   {
     id: 1,
     title: "The Amazing Race Canada",
-    description: "Teams race across Canada, completing challenges and navigating through various locations while competing for a grand prize. This high-stakes competition tests contestants' physical and mental abilities as they travel through urban centers and remote locations.",
-    image: "/lovable-uploads/1121b8e0-e73c-4072-832d-25d77a4e7260.png",
+    description: "Lead Editor for 12 episodes across 7 seasons, and Senior/Supervising Editor for 11 episodes in Season 9. A high-stakes competition where teams race across Canada, completing challenges and navigating through various locations.",
+    image: "https://images.unsplash.com/photo-1649972904349-6e44c42644a7",
     trailerUrl: "#"
   },
   {
     id: 2,
-    title: "Top Chef Canada",
-    description: "Professional chefs compete in culinary challenges, showcasing their skills and creativity while being judged by renowned culinary experts. Each episode brings new challenges and eliminations until one chef is crowned the winner.",
-    image: "https://images.unsplash.com/photo-1556910103-1c02745aae4d?auto=format&fit=crop&q=80",
+    title: "Best in Miniature",
+    description: "Supervising Editor / Story Editor for Season 2 (8 episodes) and Lead Editor for Season 1 (2 episodes). A unique competition showcasing incredible miniature creations.",
+    image: "https://images.unsplash.com/photo-1649972904349-6e44c42644a7",
     trailerUrl: "#"
   },
   {
     id: 3,
-    title: "Big Brother Canada",
-    description: "Contestants live together in a custom-built house, isolated from the outside world while competing in challenges and strategizing to avoid elimination. Weekly evictions and dramatic twists keep viewers on the edge of their seats.",
-    image: "https://images.unsplash.com/photo-1564069114553-7215e1ff1890?auto=format&fit=crop&q=80",
+    title: "Drink Masters",
+    description: "Picture Editor for Episode 3. An innovative competition series featuring skilled mixologists creating extraordinary cocktails.",
+    image: "https://images.unsplash.com/photo-1649972904349-6e44c42644a7",
+    trailerUrl: "#"
+  },
+  {
+    id: 4,
+    title: "Top Chef Canada",
+    description: "Picture Editor for 2 episodes of Season 6. A culinary competition showcasing Canada's top chefs competing in challenging cooking battles.",
+    image: "https://images.unsplash.com/photo-1649972904349-6e44c42644a7",
+    trailerUrl: "#"
+  },
+  {
+    id: 5,
+    title: "MasterChef Canada",
+    description: "Lead Editor for 3 episodes across Seasons 1 & 2. Amateur chefs compete to prove their culinary skills and win the prestigious title.",
+    image: "https://images.unsplash.com/photo-1649972904349-6e44c42644a7",
+    trailerUrl: "#"
+  },
+  {
+    id: 6,
+    title: "All Round Champion",
+    description: "Picture Editor for 5 episodes. A competition reality series showcasing young athletes competing across various sports disciplines.",
+    image: "https://images.unsplash.com/photo-1649972904349-6e44c42644a7",
+    trailerUrl: "#"
+  },
+  {
+    id: 7,
+    title: "Race Against the Tide",
+    description: "Picture Editor for 2 episodes of Season 1. A unique competition where contestants race against time and tides.",
+    image: "https://images.unsplash.com/photo-1649972904349-6e44c42644a7",
     trailerUrl: "#"
   }
 ];
@@ -71,7 +99,7 @@ const CompetitionReality = () => {
                   </a>
                 </Button>
               </div>
-              <div className="aspect-video md:aspect-auto">
+              <div className="aspect-square w-full max-w-[400px] justify-self-center">
                 <img
                   src={show.image}
                   alt={show.title}

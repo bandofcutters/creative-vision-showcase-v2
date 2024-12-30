@@ -6,23 +6,9 @@ import { useNavigate } from "react-router-dom";
 const shows = [
   {
     id: 1,
-    title: "The Underground Network",
+    title: "United Gangs of America Season 2",
     description: "An investigative series that delves deep into the hidden world of organized crime networks, exploring their operations, impact on society, and the efforts to dismantle them.",
     image: "/lovable-uploads/a1ab5db7-63b9-40d3-854e-600555069217.png",
-    trailerUrl: "#"
-  },
-  {
-    id: 2,
-    title: "Cold Case Files",
-    description: "A gripping documentary series that reopens unsolved criminal cases, following investigators as they use modern technology and fresh perspectives to shed new light on decades-old mysteries.",
-    image: "/images/cold-case.jpg",
-    trailerUrl: "#"
-  },
-  {
-    id: 3,
-    title: "Digital Forensics",
-    description: "Follow cybercrime investigators as they navigate the dark web and digital underworld to track down modern criminals who leave electronic footprints.",
-    image: "/images/digital-forensics.jpg",
     trailerUrl: "#"
   }
 ];
@@ -71,7 +57,7 @@ const TrueCrime = () => {
                   </a>
                 </Button>
               </div>
-              <div className="aspect-video md:aspect-auto">
+              <div className="aspect-square w-full max-w-[400px] justify-self-center">
                 <img
                   src={show.image}
                   alt={show.title}
