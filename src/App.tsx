@@ -5,6 +5,7 @@ import { QueryClient, QueryClientProvider } from "@tanstack/react-query";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Index from "./pages/Index";
 import Documentaries from "./pages/Documentaries";
+import CompetitionReality from "./pages/CompetitionReality";
 
 const queryClient = new QueryClient();
 
@@ -17,6 +18,7 @@ const App = () => (
         <Routes>
           <Route path="/" element={<Index />} />
           <Route path="/documentaries" element={<Documentaries />} />
+          <Route path="/competition-reality" element={<CompetitionReality />} />
         </Routes>
       </BrowserRouter>
     </TooltipProvider>

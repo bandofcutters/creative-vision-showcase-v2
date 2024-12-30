@@ -10,8 +10,9 @@ const portfolioItems = [
   },
   {
     id: 2,
-    title: "Reality TV Series",
-    image: "https://images.unsplash.com/photo-1578022761797-b8636ac1773c?auto=format&fit=crop&q=80",
+    title: "Competition Reality TV",
+    image: "/lovable-uploads/1121b8e0-e73c-4072-832d-25d77a4e7260.png",
+    route: "/competition-reality"
   },
   {
     id: 3,
