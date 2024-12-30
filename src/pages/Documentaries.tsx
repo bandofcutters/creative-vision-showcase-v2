@@ -2,8 +2,9 @@ import { motion } from "framer-motion";
 import { Button } from "@/components/ui/button";
 import { ArrowLeft, Play } from "lucide-react";
 import { useNavigate } from "react-router-dom";
-import { useEffect } from "react";
+import { useEffect, useState } from "react";
 import { PortfolioNav } from "@/components/PortfolioNav";
+import { VideoModal } from "@/components/VideoModal";
 
 const shows = [
   {
@@ -11,7 +12,7 @@ const shows = [
     title: "Mr. Dressup: The Magic of Make Believe",
     description: "Feature Documentary that premiered at TIFF 2023, winning the People's Choice Documentary Award. A heartwarming exploration of the beloved Canadian children's television host.",
     image: "/lovable-uploads/08d58990-f33e-403c-a06a-58aea28af892.png",
-    trailerUrl: "#"
+    trailerUrl: "https://www.youtube.com/embed/YOUR_VIDEO_ID" // Replace with actual video ID
   },
   {
     id: 2,
@@ -38,6 +39,7 @@ const shows = [
 
 const Documentaries = () => {
   const navigate = useNavigate();
+  const [selectedVideo, setSelectedVideo] = useState<{ url: string; title: string } | null>(null);
 
   useEffect(() => {
     window.scrollTo(0, 0);
@@ -79,11 +81,9 @@ const Documentaries = () => {
                 <Button
                   variant="outline"
                   className="w-fit border-accent text-accent hover:bg-accent hover:text-dark"
-                  asChild
+                  onClick={() => setSelectedVideo({ url: show.trailerUrl, title: show.title })}
                 >
-                  <a href={show.trailerUrl} target="_blank" rel="noopener noreferrer">
-                    <Play className="mr-2" /> Watch Trailer
-                  </a>
+                  <Play className="mr-2" /> Watch Trailer
                 </Button>
               </div>
               <div className="flex items-center justify-center p-4">
@@ -97,6 +97,15 @@ const Documentaries = () => {
           ))}
         </div>
       </motion.div>
+
+      {selectedVideo && (
+        <VideoModal
+          isOpen={!!selectedVideo}
+          onClose={() => setSelectedVideo(null)}
+          videoUrl={selectedVideo.url}
+          title={selectedVideo.title}
+        />
+      )}
     </div>
   );
 };
