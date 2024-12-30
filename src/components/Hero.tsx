@@ -26,7 +26,7 @@ export const Hero = () => {
       <div 
         className="absolute inset-0 bg-gradient-to-br from-dark via-dark/95 to-dark-lighter"
         style={{
-          backgroundImage: `url(https://images.unsplash.com/photo-1492619375914-88005aa9e8fb?auto=format&fit=crop&q=80)`,
+          backgroundImage: `url(https://images.unsplash.com/photo-1604871000636-074fa5117945?auto=format&fit=crop&q=80)`,
           backgroundSize: 'cover',
           backgroundPosition: 'center',
           backgroundBlendMode: 'overlay',
@@ -70,21 +70,21 @@ export const Hero = () => {
           >
             View My Work
           </button>
+          <a 
+            href="#about" 
+            className="px-8 py-3 border border-accent text-accent hover:bg-accent hover:text-dark rounded-full transition-colors duration-300"
+          >
+            Learn More
+          </a>
           <button 
             onClick={() => setShowCV(true)}
             className="px-8 py-3 border border-accent text-accent hover:bg-accent hover:text-dark rounded-full transition-colors duration-300"
           >
             View CV
           </button>
-          <a 
-            href="#about" 
-            className="px-8 py-3 border border-white/20 hover:border-accent hover:text-accent rounded-full transition-colors duration-300"
-          >
-            Learn More
-          </a>
           <button 
             onClick={scrollToContact}
-            className="px-8 py-3 border border-white/20 hover:border-accent hover:text-accent rounded-full transition-colors duration-300"
+            className="px-8 py-3 border border-accent text-accent hover:bg-accent hover:text-dark rounded-full transition-colors duration-300"
           >
             Contact
           </button>
