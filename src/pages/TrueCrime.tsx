@@ -29,7 +29,7 @@ const TrueCrime = () => {
         animate={{ opacity: 1, y: 0 }}
         className="container mx-auto"
       >
-        <div className="flex items-center justify-between mb-8">
+        <div className="flex items-center justify-between mb-12">
           <Button
             variant="ghost"
             className="text-white hover:bg-accent/20 hover:text-white"
@@ -39,6 +39,8 @@ const TrueCrime = () => {
           </Button>
           <PortfolioNav />
         </div>
+
+        <h1 className="text-4xl font-bold mb-12">True Crime</h1>
         
         <div className="space-y-12">
           {shows.map((show) => (

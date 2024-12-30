@@ -17,42 +17,42 @@ const shows = [
     id: 2,
     title: "Best in Miniature",
     description: "Supervising Editor / Story Editor for Season 2 (8 episodes) and Lead Editor for Season 1 (2 episodes). A unique competition showcasing incredible miniature creations.",
-    image: "/lovable-uploads/08d58990-f33e-403c-a06a-58aea28af892.png",
+    image: "https://images.unsplash.com/photo-1604871000636-074fa5117945",
     trailerUrl: "#"
   },
   {
     id: 3,
     title: "Drink Masters",
     description: "Picture Editor for Episode 3. An innovative competition series featuring skilled mixologists creating extraordinary cocktails.",
-    image: "/lovable-uploads/08d58990-f33e-403c-a06a-58aea28af892.png",
+    image: "https://images.unsplash.com/photo-1649972904349-6e44c42644a7",
     trailerUrl: "#"
   },
   {
     id: 4,
     title: "Top Chef Canada",
     description: "Picture Editor for 2 episodes of Season 6. A culinary competition showcasing Canada's top chefs competing in challenging cooking battles.",
-    image: "/lovable-uploads/08d58990-f33e-403c-a06a-58aea28af892.png",
+    image: "https://images.unsplash.com/photo-1649972904349-6e44c42644a7",
     trailerUrl: "#"
   },
   {
     id: 5,
     title: "MasterChef Canada",
     description: "Lead Editor for 3 episodes across Seasons 1 & 2. Amateur chefs compete to prove their culinary skills and win the prestigious title.",
-    image: "/lovable-uploads/08d58990-f33e-403c-a06a-58aea28af892.png",
+    image: "https://images.unsplash.com/photo-1649972904349-6e44c42644a7",
     trailerUrl: "#"
   },
   {
     id: 6,
     title: "All Round Champion",
     description: "Picture Editor for 5 episodes. A competition reality series showcasing young athletes competing across various sports disciplines.",
-    image: "/lovable-uploads/08d58990-f33e-403c-a06a-58aea28af892.png",
+    image: "https://images.unsplash.com/photo-1649972904349-6e44c42644a7",
     trailerUrl: "#"
   },
   {
     id: 7,
     title: "Race Against the Tide",
     description: "Picture Editor for 2 episodes of Season 1. A unique competition where contestants race against time and tides.",
-    image: "/lovable-uploads/08d58990-f33e-403c-a06a-58aea28af892.png",
+    image: "https://images.unsplash.com/photo-1649972904349-6e44c42644a7",
     trailerUrl: "#"
   }
 ];
@@ -71,16 +71,17 @@ const CompetitionReality = () => {
         animate={{ opacity: 1, y: 0 }}
         className="container mx-auto"
       >
-        <div className="flex items-center justify-between mb-8">
-          <Button
-            variant="ghost"
-            className="text-white hover:bg-accent/20 hover:text-white"
-            onClick={() => navigate("/")}
-          >
-            <ArrowLeft className="mr-2" /> Back to Home
-          </Button>
-          <PortfolioNav />
-        </div>
+        <Button
+          variant="ghost"
+          className="text-white mb-8 hover:bg-accent/20 hover:text-white"
+          onClick={() => navigate("/")}
+        >
+          <ArrowLeft className="mr-2" /> Back to Home
+        </Button>
+
+        <h1 className="text-4xl font-bold mb-12">Competition Reality TV</h1>
+        
+        <PortfolioNav />
         
         <div className="space-y-12">
           {shows.map((show) => (
