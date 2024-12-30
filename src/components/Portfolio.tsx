@@ -16,8 +16,9 @@ const portfolioItems = [
   },
   {
     id: 3,
-    title: "Unscripted Content",
-    image: "https://images.unsplash.com/photo-1524712245354-2c4e5e7121c0?auto=format&fit=crop&q=80",
+    title: "True Crime",
+    image: "/lovable-uploads/a1ab5db7-63b9-40d3-854e-600555069217.png",
+    route: "/true-crime"
   },
 ];
 
