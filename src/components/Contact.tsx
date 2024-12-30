@@ -15,7 +15,7 @@ export const Contact = () => {
           Get in <span className="text-accent">Touch</span>
         </motion.h2>
 
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-8 max-w-4xl mx-auto">
+        <div className="grid grid-cols-1 md:grid-cols-3 lg:grid-cols-3 gap-8 max-w-4xl mx-auto mb-8">
           <motion.div
             initial={{ opacity: 0, y: 20 }}
             whileInView={{ opacity: 1, y: 0 }}
@@ -58,33 +58,31 @@ export const Contact = () => {
               <p className="text-gray-300">Toronto, Ontario / Remote</p>
             </div>
           </motion.div>
-
-          <motion.div
-            initial={{ opacity: 0, y: 20 }}
-            whileInView={{ opacity: 1, y: 0 }}
-            viewport={{ once: true }}
-            className="flex items-center space-x-4"
-          >
-            <div className="flex space-x-4">
-              <a
-                href="https://www.linkedin.com/in/ryanmonteitheditor"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="text-accent hover:text-white transition-colors"
-              >
-                <Linkedin size={24} />
-              </a>
-              <a
-                href="https://x.com/ryanmonteith_?s=11"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="text-accent hover:text-white transition-colors"
-              >
-                <Twitter size={24} />
-              </a>
-            </div>
-          </motion.div>
         </div>
+
+        <motion.div
+          initial={{ opacity: 0, y: 20 }}
+          whileInView={{ opacity: 1, y: 0 }}
+          viewport={{ once: true }}
+          className="flex justify-center space-x-4"
+        >
+          <a
+            href="https://www.linkedin.com/in/ryanmonteitheditor"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="text-accent hover:text-white transition-colors"
+          >
+            <Linkedin size={24} />
+          </a>
+          <a
+            href="https://x.com/ryanmonteith_?s=11"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="text-accent hover:text-white transition-colors"
+          >
+            <Twitter size={24} />
+          </a>
+        </motion.div>
       </div>
     </section>
   );
