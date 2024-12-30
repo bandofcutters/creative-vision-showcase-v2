@@ -29,18 +29,17 @@ const TrueCrime = () => {
         animate={{ opacity: 1, y: 0 }}
         className="container mx-auto"
       >
-        <div className="flex items-center justify-between mb-12">
-          <Button
-            variant="ghost"
-            className="text-white hover:bg-accent/20 hover:text-white"
-            onClick={() => navigate("/")}
-          >
-            <ArrowLeft className="mr-2" /> Back to Home
-          </Button>
-          <PortfolioNav />
-        </div>
+        <Button
+          variant="ghost"
+          className="text-white mb-8 hover:bg-accent/20 hover:text-white"
+          onClick={() => navigate("/")}
+        >
+          <ArrowLeft className="mr-2" /> Back to Home
+        </Button>
 
         <h1 className="text-4xl font-bold mb-12">True Crime</h1>
+        
+        <PortfolioNav />
         
         <div className="space-y-12">
           {shows.map((show) => (
