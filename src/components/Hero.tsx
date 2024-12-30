@@ -64,9 +64,10 @@ export const Hero = () => {
           transition={{ delay: 0.6, duration: 0.8 }}
           className="flex flex-col md:flex-row gap-4 justify-center items-center"
         >
+
           <button 
             onClick={scrollToPortfolio}
-            className="px-8 py-3 bg-accent hover:bg-accent/90 text-dark font-semibold rounded-full transition-colors duration-300"
+            className="px-8 py-3 bg-accent hover:bg-accent/90 text-dark font-semibold rounded-full transition-colors duration-300 hover:text-dark"
           >
             View My Work
           </button>
@@ -88,6 +89,7 @@ export const Hero = () => {
           >
             Contact
           </button>
+
         </motion.div>
       </div>
 

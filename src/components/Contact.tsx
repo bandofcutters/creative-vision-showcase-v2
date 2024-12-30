@@ -1,5 +1,5 @@
 import { motion } from "framer-motion";
-import { Mail, Phone, MapPin } from "lucide-react";
+import { Mail, Phone, MapPin, Linkedin, Twitter, Facebook } from "lucide-react";
 
 export const Contact = () => {
   return (
@@ -14,22 +14,22 @@ export const Contact = () => {
           Get in <span className="text-accent">Touch</span>
         </motion.h2>
         
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-8 max-w-4xl mx-auto">
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-8 max-w-4xl mx-auto mb-12">
           {[
             {
               icon: Mail,
               title: "Email",
-              info: "hello@example.com"
+              info: "ryan@bandofcutters.com"
             },
             {
               icon: Phone,
               title: "Phone",
-              info: "+1 234 567 890"
+              info: "647.273.3154"
             },
             {
               icon: MapPin,
               title: "Location",
-              info: "New York, USA"
+              info: "Toronto, Ontario / Remote"
             }
           ].map((item, index) => (
             <motion.div
@@ -48,6 +48,38 @@ export const Contact = () => {
             </motion.div>
           ))}
         </div>
+
+        <motion.div 
+          initial={{ opacity: 0, y: 20 }}
+          whileInView={{ opacity: 1, y: 0 }}
+          viewport={{ once: true }}
+          className="flex justify-center gap-8"
+        >
+          <a 
+            href="https://www.linkedin.com/in/ryanmonteitheditor" 
+            target="_blank" 
+            rel="noopener noreferrer"
+            className="p-3 rounded-full bg-accent/10 hover:bg-accent/20 transition-colors"
+          >
+            <Linkedin className="w-6 h-6 text-accent" />
+          </a>
+          <a 
+            href="https://x.com/ryanmonteith_?s=11" 
+            target="_blank" 
+            rel="noopener noreferrer"
+            className="p-3 rounded-full bg-accent/10 hover:bg-accent/20 transition-colors"
+          >
+            <Twitter className="w-6 h-6 text-accent" />
+          </a>
+          <a 
+            href="https://facebook.com/ryanmonteith1976" 
+            target="_blank" 
+            rel="noopener noreferrer"
+            className="p-3 rounded-full bg-accent/10 hover:bg-accent/20 transition-colors"
+          >
+            <Facebook className="w-6 h-6 text-accent" />
+          </a>
+        </motion.div>
       </div>
     </section>
   );
