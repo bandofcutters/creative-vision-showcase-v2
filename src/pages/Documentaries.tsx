@@ -17,21 +17,21 @@ const shows = [
     id: 2,
     title: "The Passionate Eye - Harder Better Faster Stronger",
     description: "A compelling documentary episode exploring contemporary themes and societal challenges.",
-    image: "https://images.unsplash.com/photo-1604871000636-074fa5117945",
+    image: "/lovable-uploads/08d58990-f33e-403c-a06a-58aea28af892.png",
     trailerUrl: "#"
   },
   {
     id: 3,
     title: "50K First Dates",
     description: "A touching 2-part documentary series following a couple's journey through real-life memory loss and their unexpected rise to TikTok fame, exploring themes of love, resilience, and the power of social media connection.",
-    image: "https://images.unsplash.com/photo-1604871000636-074fa5117945",
+    image: "/lovable-uploads/08d58990-f33e-403c-a06a-58aea28af892.png",
     trailerUrl: "#"
   },
   {
     id: 4,
     title: "At the Table with...",
     description: "A 13-episode documentary series exploring culinary stories and cultural connections.",
-    image: "https://images.unsplash.com/photo-1604871000636-074fa5117945",
+    image: "/lovable-uploads/08d58990-f33e-403c-a06a-58aea28af892.png",
     trailerUrl: "#"
   }
 ];
@@ -50,17 +50,16 @@ const Documentaries = () => {
         animate={{ opacity: 1, y: 0 }}
         className="container mx-auto"
       >
-        <Button
-          variant="ghost"
-          className="text-white mb-8 hover:bg-accent/20 hover:text-white"
-          onClick={() => navigate("/")}
-        >
-          <ArrowLeft className="mr-2" /> Back to Home
-        </Button>
-
-        <h1 className="text-4xl font-bold mb-12">Documentaries</h1>
-        
-        <PortfolioNav />
+        <div className="flex items-center justify-between mb-8">
+          <Button
+            variant="ghost"
+            className="text-white hover:bg-accent/20 hover:text-white"
+            onClick={() => navigate("/")}
+          >
+            <ArrowLeft className="mr-2" /> Back to Home
+          </Button>
+          <PortfolioNav />
+        </div>
         
         <div className="space-y-12">
           {shows.map((show) => (
