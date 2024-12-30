@@ -8,7 +8,7 @@ const shows = [
     id: 1,
     title: "Mr. Dressup: The Magic of Make Believe",
     description: "Feature Documentary that premiered at TIFF 2023, winning the People's Choice Documentary Award. A heartwarming exploration of the beloved Canadian children's television host.",
-    image: "https://images.unsplash.com/photo-1649972904349-6e44c42644a7",
+    image: "/lovable-uploads/08d58990-f33e-403c-a06a-58aea28af892.png",
     trailerUrl: "#"
   },
   {
@@ -71,11 +71,11 @@ const Documentaries = () => {
                   </a>
                 </Button>
               </div>
-              <div className="aspect-square w-full max-w-[400px] justify-self-center">
+              <div className="flex items-center justify-center p-4">
                 <img
                   src={show.image}
                   alt={show.title}
-                  className="w-full h-full object-cover"
+                  className="w-[300px] h-[300px] object-cover rounded-lg"
                 />
               </div>
             </motion.div>

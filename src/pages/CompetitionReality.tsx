@@ -8,7 +8,7 @@ const shows = [
     id: 1,
     title: "The Amazing Race Canada",
     description: "Lead Editor for 12 episodes across 7 seasons, and Senior/Supervising Editor for 11 episodes in Season 9. A high-stakes competition where teams race across Canada, completing challenges and navigating through various locations.",
-    image: "https://images.unsplash.com/photo-1649972904349-6e44c42644a7",
+    image: "/lovable-uploads/1121b8e0-e73c-4072-832d-25d77a4e7260.png",
     trailerUrl: "#"
   },
   {
@@ -99,11 +99,11 @@ const CompetitionReality = () => {
                   </a>
                 </Button>
               </div>
-              <div className="aspect-square w-full max-w-[400px] justify-self-center">
+              <div className="flex items-center justify-center p-4">
                 <img
                   src={show.image}
                   alt={show.title}
-                  className="w-full h-full object-cover"
+                  className="w-[300px] h-[300px] object-cover rounded-lg"
                 />
               </div>
             </motion.div>
