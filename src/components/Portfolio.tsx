@@ -1,10 +1,12 @@
 import { motion } from "framer-motion";
+import { useNavigate } from "react-router-dom";
 
 const portfolioItems = [
   {
     id: 1,
-    title: "Documentary Editing",
-    image: "https://images.unsplash.com/photo-1492619375914-88005aa9e8fb?auto=format&fit=crop&q=80",
+    title: "Documentaries",
+    image: "/lovable-uploads/08d58990-f33e-403c-a06a-58aea28af892.png",
+    route: "/documentaries"
   },
   {
     id: 2,
@@ -19,6 +21,8 @@ const portfolioItems = [
 ];
 
 export const Portfolio = () => {
+  const navigate = useNavigate();
+
   return (
     <section id="portfolio" className="py-20 px-4 bg-dark-lighter">
       <div className="container mx-auto">
@@ -39,7 +43,8 @@ export const Portfolio = () => {
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true }}
               transition={{ delay: index * 0.2 }}
-              className="group relative overflow-hidden rounded-lg aspect-square"
+              className="group relative overflow-hidden rounded-lg aspect-square cursor-pointer"
+              onClick={() => item.route && navigate(item.route)}
             >
               <img
                 src={item.image}
