@@ -15,14 +15,14 @@ const shows = [
     id: 2,
     title: "Cold Case Files",
     description: "A gripping documentary series that reopens unsolved criminal cases, following investigators as they use modern technology and fresh perspectives to shed new light on decades-old mysteries.",
-    image: "https://images.unsplash.com/photo-1589578527966-fdac0f44566c?auto=format&fit=crop&q=80",
+    image: "/images/cold-case.jpg",
     trailerUrl: "#"
   },
   {
     id: 3,
     title: "Digital Forensics",
     description: "Follow cybercrime investigators as they navigate the dark web and digital underworld to track down modern criminals who leave electronic footprints.",
-    image: "https://images.unsplash.com/photo-1550751827-4bd374c3f58b?auto=format&fit=crop&q=80",
+    image: "/images/digital-forensics.jpg",
     trailerUrl: "#"
   }
 ];
