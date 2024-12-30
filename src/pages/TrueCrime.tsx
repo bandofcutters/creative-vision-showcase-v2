@@ -61,7 +61,7 @@ const TrueCrime = () => {
                   asChild
                 >
                   <a href={show.trailerUrl} target="_blank" rel="noopener noreferrer">
-                    <Play className="mr-2" /> Watch Trailer
+                    <Play className="mr-2" /> Watch
                   </a>
                 </Button>
               </div>
