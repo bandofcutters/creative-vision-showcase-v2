@@ -46,14 +46,14 @@ const shows = [
     id: 4,
     title: "Top Chef Canada",
     description: "Picture Editor for 2 episodes of Season 6. A culinary competition showcasing Canada's top chefs competing in challenging cooking battles.",
-    image: "/lovable-uploads/topchef_01.jpeg",
+    image: "/lovable-uploads/topchef_01.jpg",
     trailerUrl: "#"
   },
   {
     id: 5,
     title: "MasterChef Canada",
     description: "Lead Editor for 3 episodes across Seasons 1 & 2. Amateur chefs compete to prove their culinary skills and win the prestigious title.",
-    image: "/lovable-uploads/masterchefcanada_01.jpeg",
+    image: "/lovable-uploads/masterchefcanada_01.jpg",
     trailerUrl: "#"
   },
   {
