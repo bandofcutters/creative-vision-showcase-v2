@@ -15,6 +15,20 @@ const shows = [
     trailerUrl: "https://dl.dropboxusercontent.com/scl/fi/5qv789hdx7celz5a8j7i5/THE_AMAZING_RACE_CANADA_TARC801.mp4?rlkey=wv1s7fyhbidrr2za910aniaos&e=1&st=kzlkctjm&raw=1" // Replace with your Dropbox video URL 
   },
   {
+    id: 6,
+    title: "All Round Champion",
+    description: "Picture Editor for 5 episodes. A competition reality series showcasing young athletes competing across various sports disciplines.",
+    image: "https://images.unsplash.com/photo-1649972904349-6e44c42644a7",
+    trailerUrl: "https://dl.dropboxusercontent.com/scl/fi/mkd2egt1o6ysg1406o73i/All-Round-Champion-EP208-Speed-Skating-720p.mp4?rlkey=adxd448mtayctq9wkj1aq18ft&e=1&st=3hwz1x9l&raw=1"
+  },
+  {
+    id: 3,
+    title: "Drink Masters",
+    description: "Picture Editor for Episode 3. An innovative competition series featuring skilled mixologists creating extraordinary cocktails.",
+    image: "/lovable-uploads/e3351528-e295-4bc4-a84d-ad16826db630.png",
+    trailerUrl: "#"
+  },
+  {
     id: 8,
     title: "Big Brother Canada",
     description: "Supervising Editor for over 100 episodes across 10 seasons, and Picture Editor for 20 episodes in Season 11. A reality competition show where contestants live together in a house, isolated from the outside world, competing for a grand prize.",
@@ -29,13 +43,6 @@ const shows = [
     trailerUrl: "#"
   },
   {
-    id: 3,
-    title: "Drink Masters",
-    description: "Picture Editor for Episode 3. An innovative competition series featuring skilled mixologists creating extraordinary cocktails.",
-    image: "/lovable-uploads/e3351528-e295-4bc4-a84d-ad16826db630.png",
-    trailerUrl: "#"
-  },
-  {
     id: 4,
     title: "Top Chef Canada",
     description: "Picture Editor for 2 episodes of Season 6. A culinary competition showcasing Canada's top chefs competing in challenging cooking battles.",
@@ -46,13 +53,6 @@ const shows = [
     id: 5,
     title: "MasterChef Canada",
     description: "Lead Editor for 3 episodes across Seasons 1 & 2. Amateur chefs compete to prove their culinary skills and win the prestigious title.",
-    image: "https://images.unsplash.com/photo-1649972904349-6e44c42644a7",
-    trailerUrl: "#"
-  },
-  {
-    id: 6,
-    title: "All Round Champion",
-    description: "Picture Editor for 5 episodes. A competition reality series showcasing young athletes competing across various sports disciplines.",
     image: "https://images.unsplash.com/photo-1649972904349-6e44c42644a7",
     trailerUrl: "#"
   },
