@@ -55,7 +55,7 @@ export const Hero = () => {
           transition={{ delay: 0.3, duration: 0.8 }}
           className="text-xl md:text-2xl text-gray-300 mb-8"
         >
-          Award-winning editor with over two decades of experience crafting compelling narratives for documentaries and unscripted television
+          Award-winning editor with over a decade of experience crafting compelling narratives for documentaries and unscripted television
         </motion.p>
 
         <motion.div
