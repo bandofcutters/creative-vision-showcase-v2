@@ -47,7 +47,7 @@ const shows = [
     title: "Top Chef Canada",
     description: "Picture Editor for 2 episodes of Season 6. A culinary competition showcasing Canada's top chefs competing in challenging cooking battles.",
     image: "/lovable-uploads/topchef_01.jpg",
-    trailerUrl: "https://www.youtube.com/embed/rOkiSTfFtqY&list=PLB7SSD8gaNJjZ-Df7L2r-ceGpDs4nqvLV"
+    trailerUrl: "https://www.youtube.com/embed/rOkiSTfFtqY"
   },
   {
     id: 5,
@@ -61,7 +61,7 @@ const shows = [
     title: "Race Against the Tide",
     description: "Picture Editor for 2 episodes of Season 1. A unique competition where contestants race against time and tides.",
     image: "/lovable-uploads/race_against_the_tide_01.jpg",
-    trailerUrl: "https://www.youtube.com/embed/DiYFY6y3ll4&list=PLJyG4btas2dlG1rkx53GExTmF9ZetqSUw"
+    trailerUrl: "https://www.youtube.com/embed/DiYFY6y3ll4"
   }
 ];
 
