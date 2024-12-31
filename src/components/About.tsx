@@ -23,6 +23,7 @@ export const About = () => {
           <p>
             Ryan is an award-winning picture editor with an innate ability to craft stories that captivate and engage audiences. With over two decades of experience, he has honed his expertise across a wide range of projects, from the high-stakes drama of The Amazing Race Canada to heartfelt stories through documentaries like Mr. Dressup: The Magic of Make-Believe to cutting-edge true crime series such as United Gangs of America. His work has been recognized with multiple Canadian Cinema Editors awards, underscoring his commitment to excellence in storytelling.
           </p> 
+          
           <p>
             Ryan’s passion lies in uncovering the core of every story and presenting it with precision and impact. He thrives in fast-paced, deadline-driven environments, where his collaborative approach sets him apart. Whether partnering with directors, producers, or fellow editors, Ryan is known for managing complex narratives with creativity and professionalism, while fostering a cohesive and dynamic team atmosphere. His unique vision and dedication to his craft have established him as a trusted leader in the worlds of unscripted television and documentary filmmaking.
           </p>
