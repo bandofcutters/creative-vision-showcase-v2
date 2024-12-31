@@ -18,7 +18,7 @@ const shows = [
     id: 6,
     title: "All Round Champion",
     description: "Picture Editor for 5 episodes. A competition reality series showcasing young athletes competing across various sports disciplines.",
-    image: "https://images.unsplash.com/photo-1649972904349-6e44c42644a7",
+    image: "/lovable-uploads/AllRoundChampion_01.jpeg",
     trailerUrl: "https://dl.dropboxusercontent.com/scl/fi/mkd2egt1o6ysg1406o73i/All-Round-Champion-EP208-Speed-Skating-720p.mp4?rlkey=adxd448mtayctq9wkj1aq18ft&e=1&st=3hwz1x9l&raw=1"
   },
   {
@@ -26,7 +26,7 @@ const shows = [
     title: "Drink Masters",
     description: "Picture Editor for Episode 3. An innovative competition series featuring skilled mixologists creating extraordinary cocktails.",
     image: "/lovable-uploads/e3351528-e295-4bc4-a84d-ad16826db630.png",
-    trailerUrl: "#"
+    trailerUrl: "https://dl.dropboxusercontent.com/scl/fi/60coaxi0zcbk413c8h6yg/DM103_BOTANICAL-BEVVIES_SCREENER.mp4?rlkey=g7d36n4ngdm45c524nzpb0vac&e=1&st=bgxe86gj&raw=0"
   },
   {
     id: 8,
@@ -40,13 +40,13 @@ const shows = [
     title: "Best in Miniature",
     description: "Supervising Editor / Story Editor for Season 2 (8 episodes) and Lead Editor for Season 1 (2 episodes). A unique competition showcasing incredible miniature creations.",
     image: "/lovable-uploads/b4d90317-bb03-4fa5-a0b3-f11ef442fde3.png",
-    trailerUrl: "#"
+    trailerUrl: "https://www.youtube.com/embed/OEBj_tgc_Ls&list=PLJyG4btas2dkqUs13tb24_I5mbFCd-vuJ&index=8&ab_channel=CBC"
   },
   {
     id: 4,
     title: "Top Chef Canada",
     description: "Picture Editor for 2 episodes of Season 6. A culinary competition showcasing Canada's top chefs competing in challenging cooking battles.",
-    image: "https://images.unsplash.com/photo-1649972904349-6e44c42644a7",
+    image: "/lovable-uploads/topchef_01.jpeg",
     trailerUrl: "#"
   },
   {
