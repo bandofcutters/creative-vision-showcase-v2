@@ -7,7 +7,7 @@ export const CVExperience = () => {
       company: "Vice Media",
       role: "Picture Editor, Documentary Series",
       date: "December 2024 - Current",
-      details: "Currently editing multiple episodes of this True Crime series about some of the most dangerous gangs across the US"
+      details: "Currently editing this True Crime series about some of the most dangerous gangs across the US"
     },
     {
       title: "50K First Dates (Prime Video)",
