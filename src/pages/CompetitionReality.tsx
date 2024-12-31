@@ -24,7 +24,7 @@ const shows = [
   {
     id: 3,
     title: "Drink Masters",
-    description: "Picture Editor for Episode 3. An innovative competition series featuring skilled mixologists creating extraordinary cocktails.",
+    description: "Picture Editor of episode 3 titled "Botanical Bevvies", for this innovative competition series featuring skilled mixologists creating extraordinary cocktails.",
     image: "/lovable-uploads/e3351528-e295-4bc4-a84d-ad16826db630.png",
     trailerUrl: "https://dl.dropboxusercontent.com/scl/fi/60coaxi0zcbk413c8h6yg/DM103_BOTANICAL-BEVVIES_SCREENER.mp4?rlkey=g7d36n4ngdm45c524nzpb0vac&e=1&st=bgxe86gj&raw=0"
   },
