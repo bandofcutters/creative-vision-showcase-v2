@@ -167,8 +167,8 @@ export const CVExperience = () => {
         {experiences.map((job, index) => (
           <div key={index} className="border-l-2 border-accent pl-4">
             <h4 className="text-white font-semibold">{job.title}</h4>
+            <p className="text-gray-400">{job.company}</p>
             <p className="text-accent">{job.role}</p>
-            <p className="text-gray-400 mt-2">{job.company}</p>
             <p className="text-gray-400 flex items-center gap-2">
               <Calendar className="w-4 h-4" /> {job.date}
             </p>
