@@ -12,8 +12,7 @@ const shows = [
     title: "The Amazing Race Canada",
     description: "Lead Editor for 12 episodes across 7 seasons, and Senior/Supervising Editor for 11 episodes in Season 9. A high-stakes competition where teams race across Canada, completing challenges and navigating through various locations.",
     image: "/lovable-uploads/1121b8e0-e73c-4072-832d-25d77a4e7260.png",
-    trailerUrl: "https://www.dropbox.com/s/YOUR_VIDEO_ID/filename.mp4?raw=1" // Replace with your Dropbox video URL
-  },
+    trailerUrl: "https://www.dropbox.com/scl/fi/5qv789hdx7celz5a8j7i5/THE_AMAZING_RACE_CANADA_TARC801.mp4?raw=1" // Replace with your Dropbox video URL 
   {
     id: 8,
     title: "Big Brother Canada",
