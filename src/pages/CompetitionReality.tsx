@@ -40,7 +40,7 @@ const shows = [
     title: "Best in Miniature",
     description: "Supervising Editor / Story Editor for Season 2 (8 episodes) and Lead Editor for Season 1 (2 episodes). A unique competition showcasing incredible miniature creations.",
     image: "/lovable-uploads/b4d90317-bb03-4fa5-a0b3-f11ef442fde3.png",
-    trailerUrl: "https://www.youtube.com/embed/OEBj_tgc_Ls
+    trailerUrl: "https://www.youtube.com/embed/OEBj_tgc_Ls"
   },
   {
     id: 4,
