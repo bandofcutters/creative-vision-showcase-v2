@@ -20,7 +20,7 @@ export const About = () => {
           viewport={{ once: true }}
           className="max-w-3xl mx-auto mb-16 text-gray-300 text-lg text-left"
         >
-          <p>
+          <p className="mb-6">
             Ryan is an award-winning picture editor with an innate ability to craft stories that captivate and engage audiences. With over two decades of experience, he has honed his expertise across a wide range of projects, from the high-stakes drama of The Amazing Race Canada to heartfelt stories through documentaries like Mr. Dressup: The Magic of Make-Believe to cutting-edge true crime series such as United Gangs of America. His work has been recognized with multiple Canadian Cinema Editors awards, underscoring his commitment to excellence in storytelling.
           </p> 
           <p className="mb-6">
