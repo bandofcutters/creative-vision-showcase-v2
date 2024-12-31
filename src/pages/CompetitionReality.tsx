@@ -12,7 +12,7 @@ const shows = [
     title: "The Amazing Race Canada",
     description: "Lead Editor for 12 episodes across 7 seasons, and Senior/Supervising Editor for 11 episodes in Season 9. A high-stakes competition where teams race across Canada, completing challenges and navigating through various locations.",
     image: "/lovable-uploads/1121b8e0-e73c-4072-832d-25d77a4e7260.png",
-    trailerUrl: "https://dl.dropboxusercontent.com/scl/fi/5qv789hdx7celz5a8j7i5/THE_AMAZING_RACE_CANADA_TARC801.mp4?rlkey=wv1s7fyhbidrr2za910aniaos&e=1&st=kzlkctjm&raw=1" // Replace with your Dropbox video URL 
+    trailerUrl: "https://dl.dropboxusercontent.com/scl/fi/5qv789hdx7celz5a8j7i5/THE_AMAZING_RACE_CANADA_TARC801.mp4?rlkey=wv1s7fyhbidrr2za910aniaos&e=1&st=kzlkctjm&raw=1"
   },
   {
     id: 6,
@@ -24,7 +24,7 @@ const shows = [
   {
     id: 3,
     title: "Drink Masters",
-    description: "Picture Editor of episode 3 titled "Botanical Bevvies", for this innovative competition series featuring skilled mixologists creating extraordinary cocktails.",
+    description: 'Picture Editor of episode 3 titled "Botanical Bevvies", for this innovative competition series featuring skilled mixologists creating extraordinary cocktails.',
     image: "/lovable-uploads/e3351528-e295-4bc4-a84d-ad16826db630.png",
     trailerUrl: "https://dl.dropboxusercontent.com/scl/fi/60coaxi0zcbk413c8h6yg/DM103_BOTANICAL-BEVVIES_SCREENER.mp4?rlkey=g7d36n4ngdm45c524nzpb0vac&e=1&st=bgxe86gj&raw=0"
   },
