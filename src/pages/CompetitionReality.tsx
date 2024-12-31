@@ -47,21 +47,21 @@ const shows = [
     title: "Top Chef Canada",
     description: "Picture Editor for 2 episodes of Season 6. A culinary competition showcasing Canada's top chefs competing in challenging cooking battles.",
     image: "/lovable-uploads/topchef_01.jpg",
-    trailerUrl: "https://www.youtube.com/embed/rOkiSTfFtqY&list=PLB7SSD8gaNJjZ-Df7L2r-ceGpDs4nqvLV&index=6&ab_channel=TopChefWorld"
+    trailerUrl: "https://www.youtube.com/embed/rOkiSTfFtqY&list=PLB7SSD8gaNJjZ-Df7L2r-ceGpDs4nqvLV"
   },
   {
     id: 5,
     title: "MasterChef Canada",
     description: "Lead Editor for 3 episodes across Seasons 1 & 2. Amateur chefs compete to prove their culinary skills and win the prestigious title.",
     image: "/lovable-uploads/masterchefcanada_01.jpg",
-    trailerUrl: "https://www.youtube.com/embed/HuS5az3KhDA&ab_channel=MasterChefWorld"
+    trailerUrl: "https://www.youtube.com/embed/HuS5az3KhDA"
   },
   {
     id: 7,
     title: "Race Against the Tide",
     description: "Picture Editor for 2 episodes of Season 1. A unique competition where contestants race against time and tides.",
     image: "/lovable-uploads/race_against_the_tide_01.jpg",
-    trailerUrl: "https://www.youtube.com/embed/DiYFY6y3ll4&list=PLJyG4btas2dlG1rkx53GExTmF9ZetqSUw&index=9&ab_channel=CBC"
+    trailerUrl: "https://www.youtube.com/embed/DiYFY6y3ll4&list=PLJyG4btas2dlG1rkx53GExTmF9ZetqSUw"
   }
 ];
 
