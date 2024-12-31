@@ -2,8 +2,9 @@ import { motion } from "framer-motion";
 import { Button } from "@/components/ui/button";
 import { ArrowLeft, Play } from "lucide-react";
 import { useNavigate } from "react-router-dom";
-import { useEffect } from "react";
+import { useEffect, useState } from "react";
 import { PortfolioNav } from "@/components/PortfolioNav";
+import { VideoModal } from "@/components/VideoModal";
 
 const shows = [
   {
@@ -11,7 +12,7 @@ const shows = [
     title: "The Amazing Race Canada",
     description: "Lead Editor for 12 episodes across 7 seasons, and Senior/Supervising Editor for 11 episodes in Season 9. A high-stakes competition where teams race across Canada, completing challenges and navigating through various locations.",
     image: "/lovable-uploads/1121b8e0-e73c-4072-832d-25d77a4e7260.png",
-    trailerUrl: "#"
+    trailerUrl: "https://www.dropbox.com/s/YOUR_VIDEO_ID/filename.mp4?raw=1" // Replace with your Dropbox video URL
   },
   {
     id: 8,
@@ -66,6 +67,7 @@ const shows = [
 
 const CompetitionReality = () => {
   const navigate = useNavigate();
+  const [selectedVideo, setSelectedVideo] = useState<{ url: string; title: string } | null>(null);
 
   useEffect(() => {
     window.scrollTo(0, 0);
@@ -105,11 +107,9 @@ const CompetitionReality = () => {
                 <Button
                   variant="outline"
                   className="w-fit border-accent text-accent hover:bg-accent hover:text-dark"
-                  asChild
+                  onClick={() => setSelectedVideo({ url: show.trailerUrl, title: show.title })}
                 >
-                  <a href={show.trailerUrl} target="_blank" rel="noopener noreferrer">
-                    <Play className="mr-2" /> Watch
-                  </a>
+                  <Play className="mr-2" /> Watch
                 </Button>
               </div>
               <div className="flex items-center justify-center p-4">
@@ -125,6 +125,15 @@ const CompetitionReality = () => {
           ))}
         </div>
       </motion.div>
+
+      {selectedVideo && (
+        <VideoModal
+          isOpen={!!selectedVideo}
+          onClose={() => setSelectedVideo(null)}
+          videoUrl={selectedVideo.url}
+          title={selectedVideo.title}
+        />
+      )}
     </div>
   );
 };
