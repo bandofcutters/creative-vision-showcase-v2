@@ -2,11 +2,18 @@ import { Calendar, Briefcase } from "lucide-react";
 
 export const CVExperience = () => {
   const experiences = [
+     {
+      title: "United Gangs of America Season 2 (Vice)",
+      company: "Vice Media",
+      role: "Picture Editor, Documentary Series",
+      date: "December 2024 - Current",
+      details: "Currently editing multiple episodes of this True Crime series about some of the most dangerous gangs across the US"
+    },
     {
       title: "50K First Dates (Prime Video)",
       company: "Peacock Alley",
       role: "Picture Editor, Docu-Series",
-      date: "July 2024 - Current",
+      date: "July 2024 - November 2024",
       details: "2 x Episodes: Edited on Premiere, Director: Brent Hodge"
     },
     {
