@@ -53,7 +53,7 @@ const shows = [
     id: 5,
     title: "MasterChef Canada",
     description: "Lead Editor for 3 episodes across Seasons 1 & 2. Amateur chefs compete to prove their culinary skills and win the prestigious title.",
-    image: "https://images.unsplash.com/photo-1649972904349-6e44c42644a7",
+    image: "/lovable-uploads/masterchefcanada_01.jpeg",
     trailerUrl: "#"
   },
   {
