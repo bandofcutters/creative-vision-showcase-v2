@@ -172,6 +172,7 @@ export const CVExperience = () => {
               <Calendar className="w-4 h-4" /> {job.date}
             </p>
             <p className="text-gray-300 mt-2 whitespace-pre-line">{job.details}</p>
+            <p className="text-gray-400 mt-2">{job.company}</p>
           </div>
         ))}
         <p className="text-gray-400 italic">
