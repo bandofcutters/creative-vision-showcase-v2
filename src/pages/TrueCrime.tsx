@@ -23,7 +23,7 @@ const TrueCrime = () => {
   }, []);
 
   return (
-    <div className="min-h-screen bg-dark text-white p-8">
+    <div className="min-h-screen bg-dark text-white p-4 md:p-8">
       <motion.div
         initial={{ opacity: 0, y: 20 }}
         animate={{ opacity: 1, y: 0 }}
@@ -31,7 +31,7 @@ const TrueCrime = () => {
       >
         <Button
           variant="ghost"
-          className="text-white mb-8 hover:bg-accent/20 hover:text-white"
+          className="text-white mb-6 md:mb-8 hover:bg-accent/20 hover:text-white"
           onClick={() => navigate("/")}
         >
           <ArrowLeft className="mr-2" /> Back to Home

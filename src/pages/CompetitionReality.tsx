@@ -87,7 +87,7 @@ const CompetitionReality = () => {
         >
           <ArrowLeft className="mr-2" /> Back to Home
         </Button>
-
+        
         <PortfolioNav />
         
         <div className="space-y-8 md:space-y-12">
