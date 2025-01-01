@@ -59,8 +59,6 @@ const Documentaries = () => {
         >
           <ArrowLeft className="mr-2" /> Back to Home
         </Button>
-
-        <h1 className="text-4xl font-bold mb-12">Documentaries</h1>
         
         <PortfolioNav />
         
