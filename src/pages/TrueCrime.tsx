@@ -37,8 +37,6 @@ const TrueCrime = () => {
           <ArrowLeft className="mr-2" /> Back to Home
         </Button>
 
-        <h1 className="text-4xl font-bold mb-12">True Crime</h1>
-        
         <PortfolioNav />
         
         <div className="space-y-12">
