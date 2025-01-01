@@ -22,7 +22,7 @@ export const Hero = () => {
   };
 
   return (
-    <section className="min-h-screen relative flex items-center justify-center bg-dark text-white p-4">
+    <section className="min-h-screen relative flex items-center justify-center bg-dark text-white px-4 py-8 md:p-4">
       <div 
         className="absolute inset-0 bg-gradient-to-br from-dark via-dark/95 to-dark-lighter"
         style={{
@@ -39,12 +39,12 @@ export const Hero = () => {
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.8 }}
-          className="mb-12"
+          className="mb-8 md:mb-12"
         >
-          <h1 className="text-5xl md:text-7xl font-bold mb-4">
+          <h1 className="text-4xl md:text-7xl font-bold mb-4">
             Ryan Monteith
           </h1>
-          <h2 className="text-5xl md:text-7xl font-bold text-accent mb-3">
+          <h2 className="text-4xl md:text-7xl font-bold text-accent mb-3">
             Picture Editor
           </h2>
         </motion.div>
@@ -53,7 +53,7 @@ export const Hero = () => {
           initial={{ opacity: 0 }}
           animate={{ opacity: 1 }}
           transition={{ delay: 0.3, duration: 0.8 }}
-          className="text-xl md:text-2xl text-gray-300 mb-8"
+          className="text-lg md:text-2xl text-gray-300 mb-8 px-4 md:px-0"
         >
           Award-winning editor with over two decades of experience crafting compelling narratives for documentaries and unscripted television
         </motion.p>
@@ -62,34 +62,32 @@ export const Hero = () => {
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ delay: 0.6, duration: 0.8 }}
-          className="flex flex-col md:flex-row gap-4 justify-center items-center"
+          className="flex flex-col gap-4 md:flex-row md:gap-4 justify-center items-center px-4 md:px-0"
         >
-
           <button 
             onClick={scrollToPortfolio}
-            className="px-8 py-3 bg-accent hover:bg-accent/90 text-dark font-semibold rounded-full transition-colors duration-300 hover:text-dark"
+            className="w-full md:w-auto px-8 py-3 bg-accent hover:bg-accent/90 text-dark font-semibold rounded-full transition-colors duration-300 hover:text-dark"
           >
             View My Work
           </button>
           <a 
             href="#about" 
-            className="px-8 py-3 border border-accent text-accent hover:bg-accent hover:text-dark rounded-full transition-colors duration-300"
+            className="w-full md:w-auto px-8 py-3 border border-accent text-accent hover:bg-accent hover:text-dark rounded-full transition-colors duration-300 text-center"
           >
             Learn More
           </a>
           <button 
             onClick={() => setShowCV(true)}
-            className="px-8 py-3 border border-accent text-accent hover:bg-accent hover:text-dark rounded-full transition-colors duration-300"
+            className="w-full md:w-auto px-8 py-3 border border-accent text-accent hover:bg-accent hover:text-dark rounded-full transition-colors duration-300"
           >
             View CV
           </button>
           <button 
             onClick={scrollToContact}
-            className="px-8 py-3 border border-accent text-accent hover:bg-accent hover:text-dark rounded-full transition-colors duration-300"
+            className="w-full md:w-auto px-8 py-3 border border-accent text-accent hover:bg-accent hover:text-dark rounded-full transition-colors duration-300"
           >
             Contact
           </button>
-
         </motion.div>
       </div>
 

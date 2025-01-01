@@ -74,7 +74,7 @@ const CompetitionReality = () => {
   }, []);
 
   return (
-    <div className="min-h-screen bg-dark text-white p-8">
+    <div className="min-h-screen bg-dark text-white p-4 md:p-8">
       <motion.div
         initial={{ opacity: 0, y: 20 }}
         animate={{ opacity: 1, y: 0 }}
@@ -82,7 +82,7 @@ const CompetitionReality = () => {
       >
         <Button
           variant="ghost"
-          className="text-white mb-8 hover:bg-accent/20 hover:text-white"
+          className="text-white mb-6 md:mb-8 hover:bg-accent/20 hover:text-white"
           onClick={() => navigate("/")}
         >
           <ArrowLeft className="mr-2" /> Back to Home
@@ -90,34 +90,34 @@ const CompetitionReality = () => {
 
         <PortfolioNav />
         
-        <div className="space-y-12">
+        <div className="space-y-8 md:space-y-12">
           {shows.map((show) => (
             <motion.div
               key={show.id}
               initial={{ opacity: 0, y: 20 }}
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true }}
-              className="grid grid-cols-1 md:grid-cols-2 gap-8 bg-dark-lighter rounded-lg overflow-hidden"
+              className="grid grid-cols-1 md:grid-cols-2 gap-4 md:gap-8 bg-dark-lighter rounded-lg overflow-hidden"
             >
-              <div className="p-6 flex flex-col justify-between">
+              <div className="p-4 md:p-6 flex flex-col justify-between">
                 <div>
-                  <h2 className="text-2xl font-bold mb-4">{show.title}</h2>
-                  <p className="text-gray-300 mb-6">{show.description}</p>
+                  <h2 className="text-xl md:text-2xl font-bold mb-3 md:mb-4">{show.title}</h2>
+                  <p className="text-gray-300 text-sm md:text-base mb-4 md:mb-6">{show.description}</p>
                 </div>
                 <Button
                   variant="outline"
-                  className="w-fit border-accent text-accent hover:bg-accent hover:text-dark"
+                  className="w-full md:w-fit border-accent text-accent hover:bg-accent hover:text-dark"
                   onClick={() => setSelectedVideo({ url: show.trailerUrl, title: show.title })}
                 >
                   <Play className="mr-2" /> Watch
                 </Button>
               </div>
               <div className="flex items-center justify-center p-4">
-                <div className="w-[300px] h-[300px] bg-black flex items-center justify-center">
+                <div className="w-full max-w-[300px] aspect-square bg-black flex items-center justify-center">
                   <img
                     src={show.image}
                     alt={show.title}
-                    className="h-[300px] w-auto object-contain"
+                    className="h-full w-full object-contain"
                   />
                 </div>
               </div>

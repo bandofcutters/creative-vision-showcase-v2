@@ -26,18 +26,18 @@ export const Portfolio = () => {
   const navigate = useNavigate();
 
   return (
-    <section id="portfolio" className="py-20 px-4 bg-dark-lighter">
+    <section id="portfolio" className="py-12 md:py-20 px-4 bg-dark-lighter">
       <div className="container mx-auto">
         <motion.h2 
           initial={{ opacity: 0, y: 20 }}
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true }}
-          className="text-4xl font-bold text-white mb-12 text-center"
+          className="text-3xl md:text-4xl font-bold text-white mb-8 md:mb-12 text-center"
         >
           Featured <span className="text-accent">Work</span>
         </motion.h2>
         
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 md:gap-8">
           {portfolioItems.map((item, index) => (
             <motion.div
               key={item.id}
@@ -53,8 +53,8 @@ export const Portfolio = () => {
                 alt={item.title}
                 className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110"
               />
-              <div className="absolute inset-0 bg-gradient-to-t from-dark to-transparent opacity-0 group-hover:opacity-90 transition-opacity duration-300 flex items-end p-6">
-                <h3 className="text-white text-xl font-semibold">{item.title}</h3>
+              <div className="absolute inset-0 bg-gradient-to-t from-dark to-transparent opacity-0 group-hover:opacity-90 transition-opacity duration-300 flex items-end p-4 md:p-6">
+                <h3 className="text-white text-lg md:text-xl font-semibold">{item.title}</h3>
               </div>
             </motion.div>
           ))}
