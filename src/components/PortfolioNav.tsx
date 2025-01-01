@@ -12,12 +12,12 @@ export const PortfolioNav = () => {
   ];
 
   return (
-    <div className="flex justify-center gap-4 mb-8">
+    <div className="flex flex-wrap justify-center gap-2 px-4 mb-8">
       {navItems.map((item) => (
         <Button
           key={item.path}
           variant="outline"
-          className={`border-accent text-accent hover:bg-accent hover:text-dark transition-colors ${
+          className={`border-accent text-accent hover:bg-accent hover:text-dark transition-colors whitespace-nowrap ${
             location.pathname === item.path ? "bg-accent/20" : ""
           }`}
           onClick={() => navigate(item.path)}
