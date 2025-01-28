@@ -12,14 +12,14 @@ const shows = [
     title: "Mr. Dressup: The Magic of Make Believe",
     description: "Feature Documentary that premiered at TIFF 2023, winning the People's Choice Documentary Award. A heartwarming exploration of the beloved Canadian children's television host.",
     image: "/lovable-uploads/08d58990-f33e-403c-a06a-58aea28af892.png",
-    trailerUrl: "https://www.youtube.com/embed/PnXXEh-S_lQ" // Replace with actual video ID
+    trailerUrl: "https://www.youtube.com/embed/PnXXEh-S_lQ?autoplay=1&rel=0" // Replace with actual video ID
   },
   {
     id: 2,
     title: "The Passionate Eye - Harder Better Faster Stronger",
     description: "A compelling documentary episode exploring contemporary themes and societal challenges.",
     image: "/lovable-uploads/5095d9b5-387f-4a6b-b88e-89e1342b505b.png",
-    trailerUrl: "https://www.youtube.com/embed/nJzHZFv-Ezg" // Replace with actual video ID
+    trailerUrl: "https://www.youtube.com/embed/nJzHZFv-Ezg?autoplay=1&rel=0" // Replace with actual video ID
   },
   {
     id: 3,
