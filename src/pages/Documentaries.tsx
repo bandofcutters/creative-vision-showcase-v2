@@ -26,7 +26,7 @@ const shows = [
     title: "50K First Dates",
     description: "A touching 2-part documentary series following a couple's journey through real-life memory loss and their unexpected rise to TikTok fame, exploring themes of love, resilience, and the power of social media connection.",
     image: "https://images.unsplash.com/photo-1604871000636-074fa5117945",
-    trailerUrl: "#"
+    trailerUrl: "https://www.youtube.com/embed/zpfeKRjrciw" // Replace with actual video ID
   },
   {
     id: 4,
