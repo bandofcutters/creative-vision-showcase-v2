@@ -10,7 +10,7 @@ const shows = [
   {
     id: 1,
     title: "United Gangs of America Season 2",
-    description: `United Gangs of America, one of the highest-rated original series in VICE TV history, returns for a second season VICE TV.
+    description: `United Gangs of America, one of the highest-rated original series in VICE TV history, returns for a second season.
 
 Season 2 will continue to highlight the shocking histories of different gang formations, including their cultures, hierarchies, crimes, and stories of the violence that result from gang-to-gang rivalries wreaking havoc on law enforcement and citizenry in large and small communities alike.
 
