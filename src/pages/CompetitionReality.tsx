@@ -38,7 +38,7 @@ const shows = [
   {
     id: 2,
     title: "Best in Miniature",
-    description: "Supervising Editor / Story Editor for Season 2 (8 episodes) and Lead Editor for Season 1 (2 episodes). A unique competition showcasing incredible miniature creations.",
+    description: "Received the 2024 Canadian Cinema Editors (CCE) Award for Best Editing in Lifestyle / Competition / Reality for the Finale episode.  Supervising Editor / Story Editor for Season 2 (8 episodes).  Was also Lead Editor for Season 1 (2 episodes). Best in Miniature is a unique competition showcasing incredible miniature artists and their creations.",
     image: "/lovable-uploads/b4d90317-bb03-4fa5-a0b3-f11ef442fde3.png",
     trailerUrl: "https://www.youtube.com/embed/OEBj_tgc_Ls"
   },
