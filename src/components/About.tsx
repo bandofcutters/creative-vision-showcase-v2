@@ -11,7 +11,7 @@ export const About = () => {
           viewport={{ once: true }}
           className="text-3xl md:text-4xl font-bold mb-8 md:mb-12 text-center"
         >
-          About <span className="text-accent">Me</span>
+          About <span className="text-accent">Ryan</span>
         </motion.h2>
 
         <motion.div
